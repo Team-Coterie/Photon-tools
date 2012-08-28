@@ -1,28 +1,28 @@
 @echo off
-echo      -[Photon Development Tools]-
-ECHO           by:Redbaron2005
-echo               v0.2
+echo             -[Photon Development Tools]-
+ECHO                   by:Redbaron2005
+echo                         v0.3
 echo.
 echo.
-ECHO ..............................................
-ECHO         Welcome to the toolbox
-ECHO          All files/imgs are located
-ECHO          in the files folder in the main
-ECHO           directory... Help yourself :)
-ECHO ..............................................
+pause
+:MENU
+ECHO ..............................................................
+ECHO                  Welcome to the toolbox
+ECHO                   All files/imgs are located
+ECHO                   in the files folder in the main
+ECHO                    directory... Help yourself :)
+ECHO ..............................................................
 ECHO.
 ECHO 1 - Root Device
-ECHO -------The below might require fastboot mode-----
+ECHO -----------The below might require fastboot mode--------------
 ECHO 2 - Flash cwmrecovery.img
 ECHO 3 - Flash recovery.img
 ECHO 4 - Flash boot.img
 ECHO 5 - Flash Joker's Recovery 3
 ECHO 6 - Flash Joker's Recovery 4
-ECHO -------------------------------------------------
-echo 
-echo 7 - EXIT
-ECHO.
+ECHO --------------------------------------------------------------
 echo.
+echo 7 - EXIT
 echo.
 SET /P M=Please choose from the following...
 echo then press ENTER
