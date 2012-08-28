@@ -1,0 +1,8 @@
+#!/system/bin/sh
+ 
+#remove stupid apps
+rm /system/app/BooksPhone.apk > /dev/null 2>&1
+rm /system/app/Sprint_Worldwide.apk > /dev/null 2>&1
+rm /system/app/SprintMobileWallet.apk > /dev/null 2>&1
+rm /system/app/SprintZone.apk > /dev/null 2>&1
+rm /system/app/YouTube.apk > /dev/null 2>&1
